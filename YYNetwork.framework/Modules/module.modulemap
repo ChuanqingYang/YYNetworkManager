@@ -1,0 +1,11 @@
+framework module YYNetwork {
+  umbrella header "YYNetwork.h"
+
+  export *
+  module * { export * }
+}
+
+module YYNetwork.Swift {
+    header "YYNetwork-Swift.h"
+    requires objc
+}
